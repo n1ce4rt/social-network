@@ -1,0 +1,21 @@
+.login_btn {
+    border-radius: 10px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(to right, #000000 0%, #e74c3c  51%, #000000  100%);
+    background-size: 200% auto;
+    transition: 0.5s;
+}
+.login_btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    text-decoration: none;
+    cursor: pointer;
+}
+

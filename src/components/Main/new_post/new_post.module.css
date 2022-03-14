@@ -1,0 +1,14 @@
+.new_post_wrapper {
+    width: 100%;
+    min-height: fit-content;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.new_post_wrapper button {
+    min-height: 50px;
+
+}

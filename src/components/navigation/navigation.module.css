@@ -1,0 +1,26 @@
+.navigation_wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    min-height: fit-content;
+    height: fit-content;
+  }
+.navigation_wrapper a {
+    display: block;
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 10px 10px;
+    text-align: start;
+    color: white;
+    width: fit-content;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.navigation_wrapper a:hover {
+    transform: translateX(10px);
+    border-bottom: 2px solid  rgb(131, 38, 38);
+}
+

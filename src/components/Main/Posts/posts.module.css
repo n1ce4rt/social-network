@@ -1,0 +1,13 @@
+.posts_wrapper {
+    width: fit-content;
+
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+    padding: 5px;
+
+}
